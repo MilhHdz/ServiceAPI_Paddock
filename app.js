@@ -35,7 +35,7 @@ const VENTA = require(por_sucursal + 'venta');
 
 
 
-const PORT = process.env.PORT || 3050;
+const PORT = 3050;
 
 const app = express();
 
