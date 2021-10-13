@@ -1,0 +1,6 @@
+ 
+# para poder ajustar la fecha se hace lo siguiente
+#   mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql -p
+#   
+#   SET GLOBAL time_zone = 'America/Mexico_City';
+#
