@@ -9,10 +9,10 @@ const mysql = require('mysql');
 // });
 
 const conecction = mysql.createPool({
-    host: '167.71.31.43',
+    host: 'localhost',
     user: 'paddock',
     database: 'paddock_db',
-    password: 'p4dd0ck_C#1s'
+    password: 'refacciones'
 });
 
 /**
