@@ -11,7 +11,7 @@ const mysql = require('mysql');
 const conecction = mysql.createPool({
     host: 'localhost',
     user: 'paddock',
-    database: 'paddock_db',
+    database: 'paddock',
     password: 'refacciones'
 });
 
